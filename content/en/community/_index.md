@@ -1,5 +1,61 @@
 ---
 title: Community
+spelling: cSpell:ignore grpcio grpcmeetings subreddit youtube
+main_channels:
+  - title: >
+      <a href="https://twitter.com/grpcio" target="_blank" rel="noopener"><i class="fab
+      fa-twitter"></i>&nbsp;Twitter</a>
+    desc: >
+      Follow us at [@grpcio][] for real-time news on blogs posts, events, and
+      more.
+  - title: >
+      <a href="https://groups.google.com/forum/#!forum/grpc-io" target="_blank" rel="noopener"><i class="fab fa-google"></i>&nbsp;Google Group</a>
+    desc: >
+      Join the [grpc-io][] forum to ask questions and get the latest
+      developer news, including [gRFCs][].
+other_channels:
+  - title: >
+      <a href="https://gitter.im/grpc/grpc"
+        target="_blank" rel="noopener"><i class="fab
+        fa-gitter"></i>&nbsp;Gitter</a>
+    desc: >
+      Chat with other gRPC developers in the
+      [`grpc/grpc`](https://gitter.im/grpc/grpc) community.
+  - title: >
+      <a href="https://stackoverflow.com/questions/tagged/grpc+protoc"
+        target="_blank" rel="noopener"><i class="fab
+        fa-stack-overflow"></i>&nbsp;Stack Overflow</a>
+    desc: >
+      Ask technical questions about [gRPC][grpc-tag] & [protoc][protoc-tag], and
+      find answers.
+  - title: >
+      <a href="https://www.reddit.com/r/grpc/"
+        target="_blank" rel="noopener"><i class="fab
+        fa-reddit"></i>&nbsp;Reddit</a>
+    desc: >
+      Consult the [`r/grpc`](https://www.reddit.com/r/grpc/) subreddit for
+      discussions related to gRPC.
+community_resources:
+  - title: >
+      <a href="https://www.meetup.com/gRPCio/"
+        target="_blank" rel="noopener"><i class="fab
+        fa-meetup"></i>&nbsp;Meetup</a>
+    desc: >
+      Join us [online][gRPCio] for project updates, live demos, and more.
+  - title: >
+      <a href="https://bit.ly/grpcmeetings"
+        target="_blank" rel="noopener"><i class="fas
+        fa-file-alt"></i>&nbsp;Meeting doc</a>
+    desc: >
+      Consult the [gRPC Community Meeting Working Doc][meeting-doc] for meeting
+      details.
+  - title: >
+      <a href="https://www.youtube.com/channel/UCrnk1HWelWnYtF78YZX80fg"
+        target="_blank" rel="noopener"><i class="fab
+        fa-youtube"></i>&nbsp;YouTube</a>
+    desc: >
+      Missed a meeting? No problem. Visit the [gRPC channel][grpc-youtube] for
+      meeting videos.
 ---
 
 {{< blocks/cover color="primary" height="sm" >}}
@@ -14,49 +70,60 @@ title: Community
 
 <div class="row">
 <div class="col-12 col-lg-8">
-<div>
 
-gRPC has an active community of developers who are using, enhancing, and building valuable integrations with other software projects. We'd love your help to improve and extend the project. You can reach us via the [Mailing List](https://groups.google.com/forum/#!forum/grpc-io), [Gitter channel](https://gitter.im/grpc/grpc), or [Twitter](https://twitter.com/grpcio) to start engaging with the project and its members.
+Welcome to our active community of developers who are using and enhancing gRPC,
+and building valuable integrations of gRPC with other software systems.
 
-</div>
+{{% alert color="success" %}}
+  The gRPC community values respect and inclusiveness. We enforce our [Code of
+  Conduct][] in all interactions.
 
-## Contribute on GitHub
+  [Code of Conduct]: https://github.com/cncf/foundation/blob/master/code-of-conduct.md
+{{% /alert %}}
 
-gRPC has an active community of developers who are using, enhancing and building valuable integrations with other software projects. We are always looking for active contributors in gRPC and gRPC Ecosystem. Here are a few areas where we would love community contribution in grpc project. Be sure to follow our [community addition guidelines](/contribute/).
+## Stay informed
 
-### [gRPC C-based](https://github.com/grpc/grpc/labels/disposition%2Fhelp%20wanted)
+Be the first to know! Follow these active channels for timely gRPC
+announcements:
 
-Or shortcut to [C](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3Aarea%2Fcore+label%3A%22disposition%2Fhelp+wanted%22), [C++](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2Fc%2B%2B), [Node.js](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2Fnode), [Python](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2FPython), [Ruby](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2Fruby), [Objective-C](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2FObjC), [PHP](https://github.com/grpc/grpc/issues?q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2Fphp), and [C#](https://github.com/grpc/grpc/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22disposition%2Fhelp+wanted%22+label%3Alang%2Fc%23+).
+{{% cards "main_channels" %}}
 
-### [gRPC Java](https://github.com/grpc/grpc-java/labels/help%20wanted)
+## Join the conversation
 
-For Android Java and Java.
+The [grpc-io][] forum, mentioned above, is a great place to ask technical
+questions and engage in discussions with other gRPC developers.
 
-### [gRPC Go](https://github.com/grpc/grpc-go/labels/Status:%20help%20wanted)
+The following channels, though less actively monitored, are also good places to
+exchange with developers and find answers to your gRPC questions:
 
-For the Go implementation.
+{{% cards "other_channels" %}}
 
-[More on how to contribute to gRPC Documentation.](/contribute/)
+### Community meetings
 
-## Mailing list
+Get fresh news, and come talk with gRPC developers and other community members
+at one of our regular online community meetings.
 
-Any questions or suggestions? Just want to be in the loop of what is going on with the project? Join the [mailing list](https://groups.google.com/forum/#!forum/grpc-io).
+{{% cards "community_resources" %}}
 
-## Join the gRPC Ecosystem
+## Contribute
 
-We have an organization for all valuable projects around gRPC in the [gRPC Ecosystem](https://github.com/grpc-ecosystem). The goal is to have all projects around gRPC (showing integrations with other projects or building utilities on top of gRPC) to be showcased here. If you have a new project you would like to add to gRPC Ecosystem, please fill up the [gRPC Ecosystem Project Request](https://docs.google.com/a/google.com/forms/d/119zb79XRovQYafE9XKjz9sstwynCWcMpoJwHgZJvK74/edit) form. Please read the [contribution guidelines](https://github.com/grpc/grpc-contrib/blob/master/CONTRIBUTING.md) for gRPC Ecosystem before submitting.
+### gRPC code and documentation
 
-## Gitter Channel
+Interested in contributing to gRPC code or documentation found under the
+[grpc][grpc-org] GitHub organization? To learn how, read
+[grpc-community/CONTRIBUTING.md][] and the `CONTRIBUTING.md` page of the repo
+that you'd like to contribute to.
 
-Join other developers and users on the [gRPC Gitter channel](https://gitter.im/grpc/grpc).
+### gRPC Ecosystem
 
-## Reddit
+The [gRPC Ecosystem][] is a GitHub organization that hosts community projects
+related to gRPC &mdash; projects include, but are not limited to, gRPC
+extensions or integrations, as well as examples that demonstrate how to use gRPC
+for common or technically challenging use cases.
 
-Join the [subreddit](https://www.reddit.com/r/grpc/).
-
-## Community meetings
-
-We hold a community video conference every other week. It's a way to discuss the status of work and show off things the community is working on. Meeting information and notes can be found at [bit.ly/grpcmeetings](https://bit.ly/grpcmeetings).
+Do you have a gRPC-related project that's a good candidate for the ecosystem?
+Submit a request to have your project added; for details, see [gRPC Ecosystem -
+New projects are welcome!][grpc-ecosystem-request].
 
 </div>
 
@@ -67,3 +134,20 @@ We hold a community video conference every other week. It's a way to discuss the
 {{< page/page-meta-links >}}
 
 </div>
+
+[@grpcio]: https://twitter.com/grpcio
+[gRFCs]: https://github.com/grpc/proposal
+[gRPC Ecosystem Project Request]: https://docs.google.com/a/google.com/forms/d/119zb79XRovQYafE9XKjz9sstwynCWcMpoJwHgZJvK74
+[gRPC Ecosystem]: https://github.com/grpc-ecosystem
+[grpc-community/CONTRIBUTING.md]: https://github.com/grpc/grpc-community/blob/main/CONTRIBUTING.md
+[grpc-ecosystem-request]: https://github.com/grpc/grpc-community/blob/main/grpc_ecosystem.md
+[grpc-io]: https://groups.google.com/forum/#!forum/grpc-io
+[grpc-org]: https://github.com/grpc
+[grpc-tag]: https://stackoverflow.com/questions/tagged/grpc
+[grpc-youtube]: https://www.youtube.com/channel/UCrnk1HWelWnYtF78YZX80fg
+[gRPCio]: https://www.meetup.com/gRPCio/
+[language]: {{< relref "languages" >}}
+[mailing list]: https://groups.google.com/forum/#!forum/grpc-io
+[meeting-doc]: https://bit.ly/grpcmeetings
+[platform]: {{< relref "platforms" >}}
+[protoc-tag]: https://stackoverflow.com/questions/tagged/protoc

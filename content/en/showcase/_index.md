@@ -3,6 +3,18 @@ title: Showcase
 description: Customer success stories, developers stories, and more
 url_use_grpc: https://www.cncf.io/case-studies/?_sft_lf-project=grpc
 spelling: cSpell:ignore youtube Kubernetes Nulab Protop
+customer_success_stories:
+  - title: >
+      [Salesforce](https://www.cncf.io/case-studies/salesforce/)
+    desc: How gRPC is enabling Salesforce’s unified interoperability strategy.
+  - title: >
+      [Mux](https://www.cncf.io/case-studies/mux/)
+    desc: How cloud native technology helps Mux simplify online video streaming.
+  - title: >
+      [Nulab](https://www.cncf.io/case-studies/nulab/)
+    desc: >
+      How the productivity software company Nulab boosted its own productivity
+      with microservices and Kubernetes.
 ---
 
 {{< blocks/cover height="sm" color="primary" >}}
@@ -18,67 +30,14 @@ spelling: cSpell:ignore youtube Kubernetes Nulab Protop
 <div class="row">
 <div class="col-12 col-lg-8">
 
-<div class="row">
-
 ## Customer success stories
-</div>
 
 Here are a few of the customers who [successfully adopted **gRPC**][use-of-grpc]
 and other [CNCF technologies](https://www.cncf.io/projects/) in the past year
 
-<div class="mt-5 row justify-content-center">
+{{% cards "customer_success_stories" %}}
 
-<div class="col-9 col-lg-4 pb-4 pb-lg-0">
-<div class="h-100 card shadow">
-<div class="card-body">
-<h4>
-          <!-- <a href="https://www.cncf.io/case-studies/salesforce/">Salesforce</a> -->
-
-[Salesforce](https://www.cncf.io/case-studies/salesforce/)
-
-</h4>
-<p>
-How gRPC is enabling Salesforce’s unified interoperability strategy.
-</p>
-</div>
-</div>
-</div>
-
-<div class="col-9 col-lg-4 pb-4 pb-lg-0">
-<div class="h-100 card shadow" href="#">
-<div class="card-body">
-<h4>
-          <!-- <a href="https://www.cncf.io/case-studies/mux/">Mux</a> -->
-
-[Mux](https://www.cncf.io/case-studies/mux/)
-
-</h4>
-<p>
-How cloud native technology helps Mux simplify online video streaming.
-</p>
-</div>
-</div>
-</div>
-
-<div class="col-9 col-lg-4 pb-4 pb-lg-0">
-<div class="h-100 card shadow">
-<div class="card-body">
-<h4>
-          <!-- <a href="https://www.cncf.io/case-studies/nulab/">Nulab</a> -->
-
-[Nulab](https://www.cncf.io/case-studies/nulab/)
-
-</h4>
-<p>
-How the productivity software company Nulab boosted its own productivity with microservices and Kubernetes.
-</p>
-</div>
-</div>
-</div>
-
-</div>
-
-<div class="text-center my-5">
+<div class="text-center my-4">
 <a class="btn btn-secondary"
     href="{{< param url_use_grpc >}}"
     target="_blank"
@@ -96,29 +55,26 @@ Developer stories cover a variety of technical subjects related to gRPC. You can
 find developer stories for your [preferred language](/docs/languages/) on each
 **language-specific landing page**.
 
-<div class="l-buttons">
-  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/go/#dev-stories">
-    Go
-  </a>
-  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/cpp/#dev-stories">
-    C++
-  </a>
-  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/java/#dev-stories">
-    Java
-  </a>
-  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/python/#dev-stories">
-    Python
-  </a>
-  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/csharp/#dev-stories">
-    C#
-  </a>
-  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/">
-    <i class="fas fa-ellipsis-h"></i>
-  </a>
+<div class="l-dev-story-buttons text-center">
+
+- [Go]({{< relref "go#dev-stories" >}})
+- [C++]({{< relref "cpp#dev-stories" >}})
+- [Java]({{< relref "/docs/languages/java#dev-stories" >}})
+- [Python]({{< relref "python#dev-stories" >}})
+- [C#]({{< relref "csharp#dev-stories" >}})
+- [<i class="fas fa-ellipsis-h"></i>]({{< relref "languages" >}})
 </div>
 
 Other developer stories are provided next.
 
+- **[Expedia Group Case Study: Bootiful APIs With GraphQL and Kotlin][Expedia]**,
+  by [Anton Arhipov](https://blog.jetbrains.com/author/antonarhipov),
+  [JetBrains](https://www.jetbrains.com/),
+  <span title="2020-12-13">December 2020</span>.
+- **[DoorDash Case Study: Building Scalable Backend Services with Kotlin][DoorDash]**,
+  by [Alina Dolgikh](https://blog.jetbrains.com/author/alinadolgikh),
+  [JetBrains](https://www.jetbrains.com/),
+  <span title="2020-12-06">December 2020</span>.
 - **[Road to gRPC](https://blog.cloudflare.com/road-to-grpc/)**
   by [Junho Choi](https://blog.cloudflare.com/author/junho/) et al.,
   [Cloudflare](https://www.cloudflare.com/). October 26, 2020.
@@ -157,6 +113,8 @@ Other developer stories are provided next.
 </div>
 
 [CNCF case studies]: https://www.cncf.io/case-studies/
+[DoorDash]: https://blog.jetbrains.com/kotlin/2020/12/doordash-building-scalable-backend-services-with-kotlin/
+[Expedia]: https://blog.jetbrains.com/kotlin/2020/12/expedia-group-bootiful-apis-with-graphql-and-kotlin/
 [gRPC Conf 2020 presentation videos]: https://www.youtube.com/playlist?list=PLj6h78yzYM2NN72UX_fdmc5CZI-D5qfJL
 [schedule]: https://events.linuxfoundation.org/grpc-conf/program/schedule/
 [use-of-gRPC]: {{< param url_use_grpc >}}

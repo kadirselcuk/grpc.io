@@ -16,12 +16,12 @@ description: Who is using gRPC and why
 <div class="row">
 <div class="col-12 col-lg-8">
 
-gRPC is a modern open source high performance RPC framework that can run in any
-environment. It can efficiently connect services in and across data centers with
-pluggable support for load balancing, tracing, health checking and
-authentication. It is also applicable in last mile of distributed computing to
-connect devices, mobile applications and browsers to backend services.
-
+gRPC is a modern open source high performance Remote Procedure Call (RPC)
+framework that can run in any environment. It can efficiently connect services
+in and across data centers with pluggable support for load balancing, tracing,
+health checking and authentication. It is also applicable in last mile of
+distributed computing to connect devices, mobile applications and browsers to
+backend services.
 
 ### The main usage scenarios
 
@@ -53,19 +53,19 @@ gRPC was initially created by Google, which has used a single general-purpose
 RPC infrastructure called **Stubby** to connect the large number of microservices
 running within and across its data centers for over a decade. In March 2015,
 Google decided to build the next version of Stubby and make it open source. The
-result was gRPC, which is now used in a great many organizations outside of
+result was gRPC, which is now used in many organizations outside of
 Google to power use cases from microservices to the "last mile" of computing
 (mobile, web, and Internet of Things).
 
 For more background on why we created gRPC, see the [gRPC Motivation and Design
 Principles](/blog/principles/) on the [gRPC blog](/blog/).
 
-{{< alert title="Note" color="info" >}}
+{{% alert title="Note" color="info" %}}
 <a name="officially-supported-languages-and-platforms"></a>
 
 Our table of **officially supported languages and platforms** has moved!
-See [Official support](/docs/#official-support).
-{{< /alert >}}
+See [Official support]({{<relref "docs#official-support">}}).
+{{% /alert %}}
 
 </div>
 

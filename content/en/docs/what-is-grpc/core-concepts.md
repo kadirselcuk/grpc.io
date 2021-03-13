@@ -172,7 +172,7 @@ or how much time is left to complete the RPC.
 
 Specifying a deadline or timeout is language specific: some language APIs work
 in terms of timeouts (durations of time), and some language APIs work in terms
-of a deadline (a fixed point in time) and may or maynot have a default deadline.
+of a deadline (a fixed point in time) and may or may not have a default deadline.
 
 #### RPC termination
 
@@ -188,9 +188,9 @@ complete before a client has sent all its requests.
 Either the client or the server can cancel an RPC at any time. A cancellation
 terminates the RPC immediately so that no further work is done.
 
-{{< alert title="Warning" color="warning" >}}
+{{% alert title="Warning" color="warning" %}}
   Changes made before a cancellation are not rolled back.
-{{< /alert >}}
+{{% /alert %}}
 
 #### Metadata
 
